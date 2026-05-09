@@ -84,18 +84,50 @@
 
     .hello-kitty-gif {
       position: fixed;
-      top: 28%;
-      width: 200px;
+      top: 32%;
+      width: 120px;
       z-index: 2;
       border-radius: 10px;
     }
 
     .gif1 {
-      left: -20px;
+      left: -10px;
     }
 
     .gif2 {
-      right: -20px;
+      right: -10px;
+    }
+
+    /* Ajustes para celular */
+    @media (max-width: 600px) {
+      .hello-kitty-gif {
+        width: 75px;
+        top: 38%;
+      }
+
+      .gif1 {
+        left: -5px;
+      }
+
+      .gif2 {
+        right: -5px;
+      }
+
+      .message {
+        padding: 70px 20px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+
+      audio {
+        width: 240px;
+      }
     }
   </style>
 </head>
@@ -134,4 +166,3 @@ oii minha princesa,
   </script>
 </body>
 </html>
-
